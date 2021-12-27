@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
 
 const Pagination = ({ pageNumber, info, setPageNumber }) => {
@@ -18,7 +19,7 @@ const Pagination = ({ pageNumber, info, setPageNumber }) => {
 
   return (
     <>
-      <style jsx>
+      <style jsx="true">
         {`
           a {
             color: white;
