@@ -1,5 +1,3 @@
-// import React from "react";
-
 const FilterBTN = ({ input, task, setPageNumber, index, name }) => {
   return (
     <div>
